@@ -1,13 +1,14 @@
 package com.edmond.VideoCLub;
 
+import com.edmond.VideoCLub.model.videoclub.MovieGenre;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VideoCLubApplication {
+public class VideoClubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VideoCLubApplication.class, args);
+		SpringApplication.run(VideoClubApplication.class, args);
 	}
 
 }
